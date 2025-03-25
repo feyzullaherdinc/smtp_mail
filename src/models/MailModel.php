@@ -40,7 +40,7 @@ class MailModel {
 
             // E-posta Gönderen Bilgileri
             $mail->setFrom($email, $name);
-            $mail->addAddress('erdincfeyzullah7@gmail.com'); 
+            $mail->addAddress(''); // Buraya formun gönderileceği email adresini yazını 
 
             // İçerik
             $mail->isHTML(true);
